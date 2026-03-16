@@ -1357,6 +1357,65 @@ window.quizzes = [
             }
         ]
     },
+
+            {
+        id: "hard-teams-quiz-2",
+        title: "Guess the Owner of the following NFL Franchises (2026)",
+        category: "teams",
+        difficulty: "hard",
+        questions: [
+            {
+                question: "Who is the current owner of the Dallas Cowboys?",
+                answers: ["Dean Spanos", "Tom Gaglardi", "Steve Ballmer", "Jerry Jones"],
+                correct: 3
+            },
+            {
+                question: "Who is the current owner of the Las Vegas Raiders?",
+                answers: ["John Madden", "Robert Kraft", "Mark Davis", "Gayle Benson"],
+                correct: 2
+            },
+            {
+                question: "Who is the current owner of the Kansas City Chiefs?",
+                answers: ["Clark Hunt", "Patrick Mahomes", "Mark Walter", "Gayle Benson"],
+                correct: 0
+            },
+            {
+                question: "Who is the current owner of the Minnesota Vikings?",
+                answers: ["Alex Rodriguez", "Jeremy Jacobs", "Zygi Wilf", "Shahid Khan"],
+                correct: 2
+            },
+            {
+                question: "Who is the current owner of the New England Patriots?",
+                answers: ["Robert Kraft", "Tom Brady", "Rob Walton", "Tom Gores"],
+                correct: 0
+            },
+            {
+                question: "Who is the current owner of the Indianapolis Colts?",
+                answers: ["John Mara", "Carlie Irsay-Gordon", "Dean Spanos", "Herbert Simon"],
+                correct: 1
+            },
+            {
+                question: "Who is the current owner of the Tampa Bay Buccaneers?",
+                answers: ["Jeffrey Vinik", "Shahid Khan", "Ray Davis", "Bryan Glazer"],
+                correct: 3
+            },
+            {
+                question: "Who is the current owner of the New Orleans Saints?",
+                answers: ["John Mara", "Alvin Kamara", "Josh Harris", "Gayle Benson"],
+                correct: 3
+            },
+            {
+                question: "Who is the current owner of the Denver Broncos?",
+                answers: ["Rob Walton", "Jimmy Haslam", "Peyton Manning", "John Sherman"],
+                correct: 0
+            },
+            {
+                question: "Who is the current owner of the Buffalo Bills?",
+                answers: ["Clark Hunt", "Terry Pegula", "Steve Bisciotti", "Mark Cuban"],
+                correct: 1
+            }
+        ]
+    },
 //#endregion
 ];
 
