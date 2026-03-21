@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>NFL Trivia – Free NFL Quiz Game for Football Fans</title>
     <meta name="description" content="Play free NFL trivia quizzes for football fans. Test your knowledge of players, teams, drafts and more. New quizzes added regularly.">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" type="image/svg+xml" 
-    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%25%22 y=%2252%25%22 font-size=%2275%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22>🏈</text></svg>">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="NFL Quiz – Test Your NFL Knowledge">
+    <meta property="og:title" content="NFL Trivia – Test Your NFL Knowledge">
     <meta property="og:description" content="Play NFL quizzes for beginners to experts. Track your stats and challenge yourself.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://yourdomain.com">
-    <meta property="og:image" content="https://yourdomain.com/preview-image.jpg">
+    <meta property="og:url" content="https://samuel-157.github.io/nfl-trivia/">
+    <meta property="og:image" content="https://samuel-157.github.io/nfl-trivia/logo.png">
+
     <meta name="theme-color" content="#0b0f12">
 
+    <!-- GoatCounter Analytics -->
     <script data-goatcounter="https://nfltrivia.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+
+    <!-- Google Search Console -->
     <meta name="google-site-verification" content="0iTKdFU-QkuuSVtT8Fw6IHgJVgKyBUiG-jJ8_Nlr-Mk" />
 </head>
 
@@ -27,6 +35,26 @@
 <header>
     <h1 class="site-title">NFL Trivia</h1>
     <button id="changeDifficultyBtn">Change Difficulty</button>
+
+    <div class="menu-wrapper">
+  <button id="menuBtn" class="menu-btn">☰</button>
+
+  <div id="menuDropdown" class="menu-dropdown hidden">
+    
+    <div class="menu-item-placeholder">
+      ✉️ Feedback (coming soon)
+    </div>
+
+    <div class="menu-item-placeholder">
+      🔎 Search Quiz (coming soon)
+    </div>
+
+    <div class="menu-item-placeholder">
+      🏆 Leaderboard (coming soon)
+    </div>
+
+  </div>
+</div>
 </header>
 
 <main class="layout page-with-ads">
