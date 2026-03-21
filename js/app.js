@@ -41,3 +41,17 @@ if (statsBtn) {
     window.location.href = "stats.html";
   });
 }
+
+const menuBtn = document.getElementById("menuBtn");
+const menuDropdown = document.getElementById("menuDropdown");
+
+menuBtn.addEventListener("click", () => {
+  menuDropdown.classList.toggle("hidden");
+});
+
+// Optional: close when clicking outside
+document.addEventListener("click", (e) => {
+  if (!menuBtn.contains(e.target) && !menuDropdown.contains(e.target)) {
+    menuDropdown.classList.add("hidden");
+  }
+});
