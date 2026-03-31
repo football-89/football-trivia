@@ -62,13 +62,28 @@ if (filteredQuizzes.length === 0) {
 
     wrapper.appendChild(btn);
 
-    if (progress[quiz.id]) {
-      const badge = document.createElement("span");
-      badge.className = "completed-badge";
-      badge.textContent =
-        `${progress[quiz.id].score}/${progress[quiz.id].total}`;
-      wrapper.appendChild(badge);
-    }
+if (progress[quiz.id]) {
+  const badge = document.createElement("span");
+  badge.className = "completed-badge";
+
+  const score = progress[quiz.id].score;
+  const total = progress[quiz.id].total;
+
+  badge.textContent = `${score}/${total}`;
+
+  // 🔽 Add color logic
+  badge.classList.remove("score-low", "score-medium", "score-high");
+
+  if (score <= 3) {
+    badge.classList.add("score-low");
+  } else if (score <= 7) {
+    badge.classList.add("score-medium");
+  } else {
+    badge.classList.add("score-high");
+  }
+
+  wrapper.appendChild(badge);
+}
 
     quizListDiv.appendChild(wrapper);
   });
