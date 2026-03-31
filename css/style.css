@@ -415,6 +415,32 @@ h1, h2 {
     overflow-y: auto;
 }
 
+/* ================= Quiz score colors ================= */
+.completed-badge {
+    margin-left: 10px;
+    font-weight: 600;
+    color: #000; /* always black text */
+    padding: 4px 10px;
+    border-radius: 999px; /* makes it oval */
+}
+
+/* Background colors instead of text colors */
+.score-low {
+    background-color: #e63946; /* red */
+}
+
+.score-medium {
+    background-color: #e9c46a; /* soft orange-yellow */
+}
+
+.score-high {
+    background-color:  #28a745; /* green */
+}
+
+.completed-badge {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
 /* ================= MOBILE FIX ================= */
 
 @media (max-width: 900px) {
