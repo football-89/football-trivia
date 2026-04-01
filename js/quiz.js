@@ -386,8 +386,15 @@ nextBtn.onclick = () => {
 };
 
 backHomeBtn.onclick = () => {
-  localStorage.removeItem("quizId"); // optional
-  window.location.href = "index.html";
+  localStorage.removeItem("quizId");
+
+  const category = localStorage.getItem("category");
+
+  if (category) {
+    window.location.href = "quiz-list.html";
+  } else {
+    window.location.href = "index.html";
+  }
 };
 
 resumeQuizBtn.onclick = () => {
