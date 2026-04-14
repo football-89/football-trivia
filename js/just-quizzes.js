@@ -577,8 +577,8 @@ window.quizzes = [
                 correct: 0
             },
             {
-                question: "Guess the biggest NFL stadium (by capacity)?",
-                answers: ["SoFi Stadium", "Arrowhead Stadium", "MetLife Stadium", "Lambeau Field"],
+                question: "Which NFL team has won the most Super Bowls?",
+                answers: ["Green Bay Packers", "Tampa Bay Buccaneers", "New England Patriots", "Seattle Seahawks"],
                 correct: 2
             },
             {
